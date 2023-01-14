@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>        
+        <div class="main" style="display: none;">
+            <div class="container">
+                <div class="header bg-4">
+                    <h2 data-before="INFORMATII OFFICIALE">Identitate</h2>
+                </div>                
+                <form>
+                    <div class="nume">
+                        <input type="text" name="inputName" id="nume" placeholder="Name">
+                    </div>
+                    <div class="prenume">
+                        <input type="text" name="inputName" id="prenume" placeholder="Prenume">
+                    </div>
+                    <div class="varsta">
+                        <input type="text" name="inputName" id="varsta" placeholder="Varsta">
+                    </div>
+                    <div class="posinput">
+                        <input type="text" name="inputName" id="nationalitate" placeholder="Nationalitate">
+                    </div>
+
+                    <label for="setD">Sex</label>
+                    <select id="gender">
+                        <option value="Barbat">Barbat</option>
+                        <option value="Femeie">Femeie</option>
+                    </select>
+                    <input type="submit" class="submit" value="Submit" onclick="getFormData()">
+                    </input>
+                </form>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="main.js" async defer></script>
+    </body>
+</html>
